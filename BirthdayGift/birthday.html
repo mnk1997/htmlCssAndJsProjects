@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="birthday.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+   
+</head>
+</head>
+<body>
+    
+    <div class="profile">
+        <h2>Today is Mayank's Birthday</h2>
+        <img alt="bff" id="avtarImg" src="images/MyAvtaar.png">
+        <h3 id="years" style="padding:10px;margin-bottom:0px;">26 years old</h3>
+        <h4 style="padding: 2px;margin-top: 2px;">21.06.1997</h4>
+    </div>
+    <section class="giftWrap">
+        <h3>I have a gift for you...</h3>
+        <h4>just hover over the gift</h4>
+        <div id="gift" alt="Your Gift" ></div>
+    </section>
+    <script>
+        let ageEle=document.getElementById('years');;
+        console.log(ageEle);
+        let currentYear=new Date().getFullYear();
+       //currentYear=2030;
+        let age=currentYear-1997;
+        ageEle.innerHTML=age;
+
+    </script>
+</body>
+</html>

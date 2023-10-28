@@ -1,0 +1,49 @@
+body{
+    font-family:'Happy Monkey',cursive;
+    
+    background-color:#a2d2ff ;
+    background: linear-gradient(#a2d2ff,pink);
+   
+    
+    
+}
+.profile
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#avtarImg
+{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9 ;
+}
+h2,h3,h4{
+    text-shadow: 0px 0px 2px red;
+    
+}
+
+h3,h4{
+    background-color: #EFB0C9;
+}
+.giftWrap
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#gift
+{
+    width: 400px;
+    height: 400px;
+    background-image: url("images/git.jpg");
+    background-size: cover;
+}
+#gift:hover
+{
+    width: 500px;
+    height: 500px;
+    background-image: url("images/com.gif");
+}
